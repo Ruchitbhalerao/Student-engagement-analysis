@@ -6,3 +6,4 @@ mediapipe==0.10.33
 opencv-python-headless==4.9.0.80
 pandas==2.2.2
 scikit-learn==1.4.2
+protobuf==4.25.3
