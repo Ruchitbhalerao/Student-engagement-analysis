@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+daisee_raw/
+daisee_frames/
+daisee.zip
+feat_matrix.npy
+labels.npy
+X_test.npy
+y_test.npy
+clip_ids.csv
+daisee_index.csv
+training_curves.png
+evaluation_results.png
