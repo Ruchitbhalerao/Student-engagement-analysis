@@ -686,7 +686,11 @@ elif st.session_state.page == "live":
     st.markdown("<div style='height:1rem'></div>",
                 unsafe_allow_html=True)
 
-    is_cloud = os.environ.get("STREAMLIT_SHARING_MODE") is not None
+    is_cloud = (
+    os.environ.get("STREAMLIT_SHARING_MODE") is not None or
+    os.environ.get("STREAMLIT_SERVER_HEADLESS") == "1" or
+    not os.path.exists("/dev/video0")
+)
     if is_cloud:
         st.markdown("""
         <div class="notice">
