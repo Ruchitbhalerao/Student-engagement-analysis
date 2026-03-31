@@ -525,7 +525,7 @@ for k, v in [("page","upload"),("running",False),("slog",[])]:
 # ============================================================
 # TOP NAVIGATION
 # ============================================================
-col_header, col_nav1, col_nav2 = st.columns([5, 1, 1], gap="small", vertical_alignment="center")
+col_header, col_nav1, col_nav2 = st.columns([5, 1, 1], gap="small")
 
 with col_header:
     st.markdown("""
