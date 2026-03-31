@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+daisee_raw/
+daisee_frames/
+daisee.zip
+feat_matrix.npy
+labels.npy
+X_test.npy
+y_test.npy
+daisee_index.csv
+clip_ids.csv
+.DS_Store
