@@ -689,7 +689,7 @@ elif st.session_state.page == "live":
     is_cloud = (
     os.environ.get("STREAMLIT_SHARING_MODE") is not None or
     os.environ.get("STREAMLIT_SERVER_HEADLESS") == "1" or
-    not os.path.exists("/dev/video0")
+    "/mount/src" in os.path.abspath(__file__)
 )
     if is_cloud:
         st.markdown("""
