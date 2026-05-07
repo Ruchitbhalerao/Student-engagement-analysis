@@ -1,0 +1,10 @@
+numpy
+numpy
+pandas
+scikit-learn
+opencv-python-headless
+streamlit
+torch
+torchvision
+mediapipe==0.10.18
+protobuf
